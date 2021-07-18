@@ -1,0 +1,79 @@
+body {
+  background-color: #2AABE4;
+  /* #9DC8E4 */
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+article {
+  background-color: #FFFFFF;
+}
+
+#article_section {
+  margin: 0 10% 0 10%;
+}
+
+#match_details {
+  text-align: center;
+}
+
+#penalty_shootout {
+  display: flex;
+  text-align: center;
+}
+
+#penalty_shootout img {
+  width: 25px;
+  height: 25px;
+}
+
+.shootout_table_l {
+  width: 50%;
+  padding-left: 25%;
+}
+
+.shootout_table_r {
+  width: 50%;
+  padding-right: 25%;
+}
+
+.teamsheets {
+  display: flex;
+}
+
+.teamsheet_table td {
+  border-collapse: collapse;
+  border: 1px solid #c9c9c9;
+}
+
+.ts_number {
+  text-align: center;
+}
+
+#teamsheet_left_col {
+  width: 35%;
+}
+#teamsheet_right_col {
+  width: 35%;
+}
+#teamsheet_centre_col {
+  width: 30%;
+}
+
+.team_name {
+  text-align: center;
+}
+
+.ts_number {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.ts_pos {
+  text-align: center;
+}
+.ts_title {
+  font-weight: bold;
+}
